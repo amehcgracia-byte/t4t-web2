@@ -3,7 +3,7 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Scheibe Erde — Media Productions',
+  title: 'Scheibe Media Production',
   description: 'Live sessions, content subscriptions and music videos for bands in Berlin.',
   icons: {
     icon: [
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     apple: '/apple-icon.png',
   },
   openGraph: {
-    title: 'Scheibe Erde — Media Productions',
+    title: 'Scheibe Media Production',
     description: 'Live sessions, content subscriptions and music videos for bands in Berlin.',
     images: ['/og-image.png'],
   },
