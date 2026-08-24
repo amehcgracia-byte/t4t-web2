@@ -69,3 +69,11 @@ footer { padding:23px clamp(20px,4vw,64px); color:var(--muted); display:flex; ju
 .service-number { color:var(--accent) }
 .market-note { color:var(--ink); opacity:.72; font-size:13px; line-height:1.5; margin:24px 0 0; max-width:60ch; border-left:2px solid var(--accent); padding-left:14px }
 .price-note { margin-top:14px !important }
+
+
+/* ---- hero: video en color y menos aire bajo el logo ---- */
+.reel-video { filter:saturate(1.18) contrast(1.05) brightness(1.03) }
+.reel-shade { background:linear-gradient(90deg,rgba(14,13,11,.76) 0%,rgba(14,13,11,.32) 50%,rgba(14,13,11,.5) 100%),linear-gradient(0deg,rgba(14,13,11,.7),transparent 46%,rgba(14,13,11,.32)) }
+.nav { padding-bottom:13px }
+.hero-content { padding:5vh 0 6vh; margin:0 0 auto }
+@media (max-width:700px){ .hero-content { padding:7vh 0 9vh } }
