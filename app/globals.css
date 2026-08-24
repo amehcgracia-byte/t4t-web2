@@ -77,3 +77,13 @@ footer { padding:23px clamp(20px,4vw,64px); color:var(--muted); display:flex; ju
 .nav { padding-bottom:13px }
 .hero-content { padding:5vh 0 6vh; margin:0 0 auto }
 @media (max-width:700px){ .hero-content { padding:7vh 0 9vh } }
+
+
+/* ---- el logo ya es blanco: no invertirlo ---- */
+.brand-wordmark { filter:none !important; mix-blend-mode:normal !important }
+.profile-logo { filter:none !important }
+.contact-mark img { filter:none !important }
+
+/* ---- hero: color de verdad y velo más suave ---- */
+.reel-video { filter:saturate(1.55) contrast(1.02) brightness(1.12) !important }
+.reel-shade { background:linear-gradient(90deg,rgba(14,13,11,.62) 0%,rgba(14,13,11,.18) 50%,rgba(14,13,11,.34) 100%),linear-gradient(0deg,rgba(14,13,11,.58),transparent 52%,rgba(14,13,11,.2)) !important }
