@@ -5,23 +5,19 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'Scheibe Erde — Media Productions',
   description: 'Live sessions, content subscriptions and music videos for bands in Berlin.',
-  generator: 'v0.app',
   icons: {
     icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
+      { url: '/icon-light-32x32.png', sizes: '32x32', media: '(prefers-color-scheme: light)' },
+      { url: '/icon-light-48x48.png', sizes: '48x48', media: '(prefers-color-scheme: light)' },
+      { url: '/icon-dark-32x32.png', sizes: '32x32', media: '(prefers-color-scheme: dark)' },
+      { url: '/icon-dark-48x48.png', sizes: '48x48', media: '(prefers-color-scheme: dark)' },
     ],
     apple: '/apple-icon.png',
+  },
+  openGraph: {
+    title: 'Scheibe Erde — Media Productions',
+    description: 'Live sessions, content subscriptions and music videos for bands in Berlin.',
+    images: ['/og-image.png'],
   },
 }
 

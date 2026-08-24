@@ -75,8 +75,8 @@ const copy = {
   },
 }
 
-const logoLight = '/Scheibe_White.png'   // sobre fondo oscuro
-const logoDark  = '/Scheibe_Black.png'   // sobre fondo claro
+const logoLight = '/Scheibe%20White.png'   // sobre fondo oscuro
+const logoDark  = '/Scheibe%20Black.png'   // sobre fondo claro
 
 const EMAIL = 'scheibeerdemedia@protonmail.com'
 const PHONE = '+49 1575 7148947'
